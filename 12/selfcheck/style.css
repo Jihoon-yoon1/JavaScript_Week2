@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+#login{
+    width: 300px;
+    height: 390px;
+    padding: 28px 38px;
+    border: 1px solid black;
+    margin: 100px auto;
+}
+
+#login fieldset{
+    border: none;
+}
+
+/* #login fieldset legend{
+    position: absolute;
+    top: -9999999px;
+} */
+#login fieldset legend{
+    display: none;
+}
+
+#login button{
+    width: 220px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: white;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    margin:24px 0;
+    font-size: 20px;
+}
+
+#login input{
+    width: 220px;
+    height: 40px;
+    border: 1px solid black;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    background-color: #eaeaea;
+}
+
+#login button[type="submit"]{
+    background-color: #373f3c;
+    color:white;
+    margin-bottom:25px;
+    font-weight: normal;
+    cursor:pointer;
+}
+
+#login a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+}
